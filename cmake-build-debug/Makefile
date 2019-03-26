@@ -123,6 +123,60 @@ A_star/fast:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/build
 .PHONY : A_star/fast
 
+Mappa.o: Mappa.cpp.o
+
+.PHONY : Mappa.o
+
+# target to build an object file
+Mappa.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.o
+.PHONY : Mappa.cpp.o
+
+Mappa.i: Mappa.cpp.i
+
+.PHONY : Mappa.i
+
+# target to preprocess a source file
+Mappa.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.i
+.PHONY : Mappa.cpp.i
+
+Mappa.s: Mappa.cpp.s
+
+.PHONY : Mappa.s
+
+# target to generate assembly for a file
+Mappa.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.s
+.PHONY : Mappa.cpp.s
+
+Tile.o: Tile.cpp.o
+
+.PHONY : Tile.o
+
+# target to build an object file
+Tile.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.o
+.PHONY : Tile.cpp.o
+
+Tile.i: Tile.cpp.i
+
+.PHONY : Tile.i
+
+# target to preprocess a source file
+Tile.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.i
+.PHONY : Tile.cpp.i
+
+Tile.s: Tile.cpp.s
+
+.PHONY : Tile.s
+
+# target to generate assembly for a file
+Tile.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.s
+.PHONY : Tile.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... A_star"
+	@echo "... Mappa.o"
+	@echo "... Mappa.i"
+	@echo "... Mappa.s"
+	@echo "... Tile.o"
+	@echo "... Tile.i"
+	@echo "... Tile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

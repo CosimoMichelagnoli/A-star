@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Mappa.cpp.o"
+  "/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Tile.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

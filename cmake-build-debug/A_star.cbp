@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.h">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.h">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp">
 			<Option target="A_star"/>
 		</Unit>
