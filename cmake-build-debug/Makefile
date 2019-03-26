@@ -150,6 +150,33 @@ Mappa.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.s
 .PHONY : Mappa.cpp.s
 
+Personaggio.o: Personaggio.cpp.o
+
+.PHONY : Personaggio.o
+
+# target to build an object file
+Personaggio.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.o
+.PHONY : Personaggio.cpp.o
+
+Personaggio.i: Personaggio.cpp.i
+
+.PHONY : Personaggio.i
+
+# target to preprocess a source file
+Personaggio.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.i
+.PHONY : Personaggio.cpp.i
+
+Personaggio.s: Personaggio.cpp.s
+
+.PHONY : Personaggio.s
+
+# target to generate assembly for a file
+Personaggio.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.s
+.PHONY : Personaggio.cpp.s
+
 Tile.o: Tile.cpp.o
 
 .PHONY : Tile.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Mappa.o"
 	@echo "... Mappa.i"
 	@echo "... Mappa.s"
+	@echo "... Personaggio.o"
+	@echo "... Personaggio.i"
+	@echo "... Personaggio.s"
 	@echo "... Tile.o"
 	@echo "... Tile.i"
 	@echo "... Tile.s"

@@ -12,7 +12,7 @@ using namespace std;
 
 class Mappa {
 public:
-    Mappa();
+    Mappa();//da rimuovere
     ~Mappa();
 
     void setMappa();
