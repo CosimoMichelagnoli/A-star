@@ -5,12 +5,13 @@
 #include "Mappa.h"
 #include <sstream>
 #include <fstream>
+#include <iostream>
 
 
 void Mappa::setMappa() {
 
     fstream mapTextFile;
-    mapTextFile.open("/home/cosimo/Scrivania/provamappa");
+    mapTextFile.open("/home/cosimo/Scrivania/provamapppa");
 
     int i=0;
     string line;
