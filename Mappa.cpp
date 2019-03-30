@@ -3,22 +3,32 @@
 //
 
 #include "Mappa.h"
-#include <sstream>
+#include "MappaSiepi.h"
+#include "MappaPietre.h"
+//#include <sstream>
 #include <fstream>
 #include <iostream>
 
 
 void Mappa::setMappa() {
+    //fstream mapTextFile;
+    //mapTextFile.open(nameflie);
 
-    fstream mapTextFile;
-    mapTextFile.open("/home/cosimo/Scrivania/provamapppa");
-
-    int i=0;
-    string line;
+    //int i=0;
+    //string line;
     vector <Tile> lineTiles;//oggetti di tipo tile
     Tile tile;
+    srand((unsigned int)time(NULL));
+    for(int i=0;i<height;i++){
+        for(int j=0;j<width;j++){
+            tile.setValue(type[rand()%type.size()]);
+            lineTiles.push_back(tile);
+        }
+        tiles.push_back(lineTiles);//vettore di vettori
+        lineTiles.clear();
+    }
 
-    while(getline(mapTextFile,line)) {
+    /*while(getline(mapTextFile,line)) { per una mappa prestabilita
 
         istringstream iss(line);
 
@@ -38,7 +48,7 @@ void Mappa::setMappa() {
         lineTiles.clear();
     }
 
-    mapTextFile.close();
+    mapTextFile.close();*/
 }
 
 void Mappa::drawMap() {
@@ -65,34 +75,41 @@ int Mappa::getTileValue(int x, int y) {
     return tiles[x][y].getValue();
 }
 
+/*Mappa::Mappa(string namefile) {
+    this->namefile=namefile;
+    setMappa();
+    setGoal();
+
+}*/
+
+Mappa::~Mappa() {
+    instance=nullptr;
+
+}
+
+Mappa *Mappa::Istance(int num) {
+    if(!instance)
+        switch(num) {
+        case 0:   instance = new MappaSiepi;
+        break;
+        case 1:   instance = new MappaPietre;
+        break;
+        /*default:
+            cout<<"errore"; mettere exeption*/
+        }
+    return instance;
+}
+
+void Mappa::setGoal() {
+    do{
+        goalx=random()%height;
+        goaly=random()%width;
+    }
+    while (!tiles[goalx][goaly].getWall());
+
+}
+
 Mappa::Mappa() {
 
 }
 
-Mappa::~Mappa() {
-
-}
-
-/*Mappa::Mappa(int nummap) {
-    switch(nummap) {
-        case 1:
-            //use absolute path for unit testing
-            //loadMap("/home/matti/Documenti/PROGRAMMAZIONEUNI/AStarLabSDL/maps/map1.map",height,width);
-            loadMap("../maps/map1.map",height,width);
-            break;
-            case 2:
-                //loadMap("/home/matti/Documenti/PROGRAMMAZIONEUNI/AStarLabSDL/maps/map2.map",height,width);
-            loadMap("../maps/map2.map",height,width);
-            break;
-            case 3:
-                //loadMap("/home/matti/Documenti/PROGRAMMAZIONEUNI/AStarLabSDL/maps/map3.map",height,width);
-            loadMap("../maps/map3.map",height,width);
-            break;
-            default:
-                //loadMap("/home/matti/Documenti/PROGRAMMAZIONEUNI/AStarLabSDL/maps/map3.map",height,width);
-            loadMap("../maps/map3.map",height,width);
-            break;
-
-    }
-}
-*/

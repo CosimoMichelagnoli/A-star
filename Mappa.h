@@ -12,13 +12,11 @@ using namespace std;
 
 class Mappa {
 public:
-    Mappa();//da rimuovere
     ~Mappa();
 
-    void setMappa();
+    void setGoal();
     void drawMap();
-    int getMap( int x, int y);
-    static Mappa* Istance(int nmap=1);
+    static Mappa* Istance(int nmap);
     int getTileValue(int x, int y);
 
     int getWidth() const;
@@ -28,17 +26,20 @@ public:
 
 
 protected:
-    explicit Mappa(int nummap);
-
-private:
-    static Mappa* instance;
-    bool loadMap(std::string path, int& height, int& width);
-
+    Mappa();//per ereditare nelle classi mappa
+    //explicit Mappa(string nomefile);
     int width;
     int height;
-    int* lvlmap;
+    int goalx;
+    int goaly;
     vector<vector<Tile>>tiles;
+    vector<int>type;
+    void setMappa();
 
+private:
+    string namefile;
+    static Mappa* instance;
+    int* lvlmap;
 };
 
 

@@ -150,6 +150,60 @@ Mappa.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.s
 .PHONY : Mappa.cpp.s
 
+MappaPietre.o: MappaPietre.cpp.o
+
+.PHONY : MappaPietre.o
+
+# target to build an object file
+MappaPietre.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.o
+.PHONY : MappaPietre.cpp.o
+
+MappaPietre.i: MappaPietre.cpp.i
+
+.PHONY : MappaPietre.i
+
+# target to preprocess a source file
+MappaPietre.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.i
+.PHONY : MappaPietre.cpp.i
+
+MappaPietre.s: MappaPietre.cpp.s
+
+.PHONY : MappaPietre.s
+
+# target to generate assembly for a file
+MappaPietre.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.s
+.PHONY : MappaPietre.cpp.s
+
+MappaSiepi.o: MappaSiepi.cpp.o
+
+.PHONY : MappaSiepi.o
+
+# target to build an object file
+MappaSiepi.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.o
+.PHONY : MappaSiepi.cpp.o
+
+MappaSiepi.i: MappaSiepi.cpp.i
+
+.PHONY : MappaSiepi.i
+
+# target to preprocess a source file
+MappaSiepi.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.i
+.PHONY : MappaSiepi.cpp.i
+
+MappaSiepi.s: MappaSiepi.cpp.s
+
+.PHONY : MappaSiepi.s
+
+# target to generate assembly for a file
+MappaSiepi.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.s
+.PHONY : MappaSiepi.cpp.s
+
 Personaggio.o: Personaggio.cpp.o
 
 .PHONY : Personaggio.o
@@ -243,6 +297,12 @@ help:
 	@echo "... Mappa.o"
 	@echo "... Mappa.i"
 	@echo "... Mappa.s"
+	@echo "... MappaPietre.o"
+	@echo "... MappaPietre.i"
+	@echo "... MappaPietre.s"
+	@echo "... MappaSiepi.o"
+	@echo "... MappaSiepi.i"
+	@echo "... MappaSiepi.s"
 	@echo "... Personaggio.o"
 	@echo "... Personaggio.i"
 	@echo "... Personaggio.s"

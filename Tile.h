@@ -12,6 +12,10 @@ public:
 
     Tile();
 
+
+
+    void setCosto(int costo);
+
     void setValue(int val);
 
     int getValue();
@@ -20,8 +24,10 @@ public:
 
     bool getWall();
 
-private:
+    int getCosto() const;
 
+private:
+    int costo;
     int value;
     bool wall;//identifica cosa è camminabile
 };

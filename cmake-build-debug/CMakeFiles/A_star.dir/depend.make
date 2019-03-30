@@ -5,6 +5,9 @@ CMakeFiles/A_star.dir/Mappa.cpp.o: ../Mappa.cpp
 CMakeFiles/A_star.dir/Mappa.cpp.o: ../Mappa.h
 CMakeFiles/A_star.dir/Mappa.cpp.o: ../Tile.h
 
+CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.cpp
+CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.h
+
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.cpp
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.h
 

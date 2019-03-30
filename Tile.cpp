@@ -6,7 +6,6 @@
 Tile::Tile() = default;
 
 void Tile::setValue(int val) {
-
     value=val;
 }
 
@@ -24,3 +23,12 @@ bool Tile::getWall() {
 
     return wall;
 }
+
+void Tile::setCosto(int costo) {
+    this->costo=costo;
+}
+
+int Tile::getCosto() const {
+    return costo;
+}
+

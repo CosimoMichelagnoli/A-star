@@ -90,6 +90,18 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.h">
 			<Option target="A_star"/>
 		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.h">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.h">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp">
 			<Option target="A_star"/>
 		</Unit>
