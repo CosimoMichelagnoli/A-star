@@ -1,1 +1,1 @@
-/usr/bin/clang++  -g   CMakeFiles/A_star.dir/main.cpp.o CMakeFiles/A_star.dir/Mappa.cpp.o CMakeFiles/A_star.dir/Tile.cpp.o CMakeFiles/A_star.dir/MappaPietre.cpp.o CMakeFiles/A_star.dir/MappaSiepi.cpp.o  -o A_star 
+/usr/bin/clang++  -g   CMakeFiles/A_star.dir/main.cpp.o CMakeFiles/A_star.dir/Mappa.cpp.o CMakeFiles/A_star.dir/Tile.cpp.o CMakeFiles/A_star.dir/Personaggio.cpp.o CMakeFiles/A_star.dir/MappaPietre.cpp.o CMakeFiles/A_star.dir/MappaSiepi.cpp.o  -o A_star lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a -lpthread 
