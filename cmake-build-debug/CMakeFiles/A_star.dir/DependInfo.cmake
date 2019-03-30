@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Mappa.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/MappaPietre.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/MappaSiepi.cpp.o"
-  "/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Personaggio.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Tile.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/main.cpp.o"
   )

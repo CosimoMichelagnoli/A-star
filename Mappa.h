@@ -16,7 +16,7 @@ public:
 
     void setGoal();
     void drawMap();
-    static Mappa* Istance(int nmap);
+    static Mappa* Instance(int nmap);
     int getTileValue(int x, int y);
 
     int getWidth() const;

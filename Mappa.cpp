@@ -22,8 +22,13 @@ void Mappa::setMappa() {
     for(int i=0;i<height;i++){
         for(int j=0;j<width;j++){
             tile.setValue(type[rand()%type.size()]);
+            if(tile.getValue()<50)
+                tile.setWall(true);
+            tile.setWall(false);
             lineTiles.push_back(tile);
+            cout<<tile.getValue()<<" ";
         }
+        cout<<endl;
         tiles.push_back(lineTiles);//vettore di vettori
         lineTiles.clear();
     }
@@ -87,7 +92,7 @@ Mappa::~Mappa() {
 
 }
 
-Mappa *Mappa::Istance(int num) {
+Mappa *Mappa::Instance(int num) {
     if(!instance)
         switch(num) {
         case 0:   instance = new MappaSiepi;

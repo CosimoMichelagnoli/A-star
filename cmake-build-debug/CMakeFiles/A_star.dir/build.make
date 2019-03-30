@@ -129,33 +129,9 @@ CMakeFiles/A_star.dir/Tile.cpp.o.provides: CMakeFiles/A_star.dir/Tile.cpp.o.requ
 CMakeFiles/A_star.dir/Tile.cpp.o.provides.build: CMakeFiles/A_star.dir/Tile.cpp.o
 
 
-CMakeFiles/A_star.dir/Personaggio.cpp.o: CMakeFiles/A_star.dir/flags.make
-CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A_star.dir/Personaggio.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/Personaggio.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp
-
-CMakeFiles/A_star.dir/Personaggio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A_star.dir/Personaggio.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp > CMakeFiles/A_star.dir/Personaggio.cpp.i
-
-CMakeFiles/A_star.dir/Personaggio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A_star.dir/Personaggio.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp -o CMakeFiles/A_star.dir/Personaggio.cpp.s
-
-CMakeFiles/A_star.dir/Personaggio.cpp.o.requires:
-
-.PHONY : CMakeFiles/A_star.dir/Personaggio.cpp.o.requires
-
-CMakeFiles/A_star.dir/Personaggio.cpp.o.provides: CMakeFiles/A_star.dir/Personaggio.cpp.o.requires
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.o.provides.build
-.PHONY : CMakeFiles/A_star.dir/Personaggio.cpp.o.provides
-
-CMakeFiles/A_star.dir/Personaggio.cpp.o.provides.build: CMakeFiles/A_star.dir/Personaggio.cpp.o
-
-
 CMakeFiles/A_star.dir/MappaPietre.cpp.o: CMakeFiles/A_star.dir/flags.make
 CMakeFiles/A_star.dir/MappaPietre.cpp.o: ../MappaPietre.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A_star.dir/MappaPietre.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A_star.dir/MappaPietre.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/MappaPietre.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.cpp
 
 CMakeFiles/A_star.dir/MappaPietre.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/A_star.dir/MappaPietre.cpp.o.provides.build: CMakeFiles/A_star.dir/Ma
 
 CMakeFiles/A_star.dir/MappaSiepi.cpp.o: CMakeFiles/A_star.dir/flags.make
 CMakeFiles/A_star.dir/MappaSiepi.cpp.o: ../MappaSiepi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A_star.dir/MappaSiepi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A_star.dir/MappaSiepi.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/MappaSiepi.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.cpp
 
 CMakeFiles/A_star.dir/MappaSiepi.cpp.i: cmake_force
@@ -206,7 +182,6 @@ A_star_OBJECTS = \
 "CMakeFiles/A_star.dir/main.cpp.o" \
 "CMakeFiles/A_star.dir/Mappa.cpp.o" \
 "CMakeFiles/A_star.dir/Tile.cpp.o" \
-"CMakeFiles/A_star.dir/Personaggio.cpp.o" \
 "CMakeFiles/A_star.dir/MappaPietre.cpp.o" \
 "CMakeFiles/A_star.dir/MappaSiepi.cpp.o"
 
@@ -216,12 +191,11 @@ A_star_EXTERNAL_OBJECTS =
 A_star: CMakeFiles/A_star.dir/main.cpp.o
 A_star: CMakeFiles/A_star.dir/Mappa.cpp.o
 A_star: CMakeFiles/A_star.dir/Tile.cpp.o
-A_star: CMakeFiles/A_star.dir/Personaggio.cpp.o
 A_star: CMakeFiles/A_star.dir/MappaPietre.cpp.o
 A_star: CMakeFiles/A_star.dir/MappaSiepi.cpp.o
 A_star: CMakeFiles/A_star.dir/build.make
 A_star: CMakeFiles/A_star.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable A_star"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable A_star"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A_star.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -232,7 +206,6 @@ CMakeFiles/A_star.dir/build: A_star
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/main.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Mappa.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Tile.cpp.o.requires
-CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Personaggio.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/MappaPietre.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/MappaSiepi.cpp.o.requires
 

@@ -3,5 +3,7 @@
 #include <iostream>
 using namespace std;
 int main() {
+    Mappa::Instance(0);
+
 
 }

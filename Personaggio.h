@@ -9,7 +9,7 @@
 class Personaggio {
 public:
     ~Personaggio();
-    static Personaggio* Istance();
+    static Personaggio* Instance();
 
 
 protected:

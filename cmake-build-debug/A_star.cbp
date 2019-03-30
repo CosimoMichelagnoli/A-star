@@ -102,12 +102,6 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.h">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp">
-			<Option target="A_star"/>
-		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.h">
-			<Option target="A_star"/>
-		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.cpp">
 			<Option target="A_star"/>
 		</Unit>

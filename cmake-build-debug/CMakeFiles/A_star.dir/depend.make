@@ -3,10 +3,19 @@
 
 CMakeFiles/A_star.dir/Mappa.cpp.o: ../Mappa.cpp
 CMakeFiles/A_star.dir/Mappa.cpp.o: ../Mappa.h
+CMakeFiles/A_star.dir/Mappa.cpp.o: ../MappaPietre.h
+CMakeFiles/A_star.dir/Mappa.cpp.o: ../MappaSiepi.h
 CMakeFiles/A_star.dir/Mappa.cpp.o: ../Tile.h
 
-CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.cpp
-CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.h
+CMakeFiles/A_star.dir/MappaPietre.cpp.o: ../Mappa.h
+CMakeFiles/A_star.dir/MappaPietre.cpp.o: ../MappaPietre.cpp
+CMakeFiles/A_star.dir/MappaPietre.cpp.o: ../MappaPietre.h
+CMakeFiles/A_star.dir/MappaPietre.cpp.o: ../Tile.h
+
+CMakeFiles/A_star.dir/MappaSiepi.cpp.o: ../Mappa.h
+CMakeFiles/A_star.dir/MappaSiepi.cpp.o: ../MappaSiepi.cpp
+CMakeFiles/A_star.dir/MappaSiepi.cpp.o: ../MappaSiepi.h
+CMakeFiles/A_star.dir/MappaSiepi.cpp.o: ../Tile.h
 
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.cpp
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.h

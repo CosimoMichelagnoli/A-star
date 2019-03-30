@@ -8,6 +8,8 @@ MappaSiepi::MappaSiepi() {
     height=20;
     width=20;
     type.push_back(12);
+    type.push_back(12);
+    type.push_back(12);
     type.push_back(60);
     setMappa();
 }

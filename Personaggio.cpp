@@ -9,7 +9,7 @@ Personaggio::~Personaggio() {
 
 }
 
-Personaggio *Personaggio::Istance() {
+Personaggio *Personaggio::Instance() {
     if(!instance)
         instance=new Personaggio();
     return instance;
