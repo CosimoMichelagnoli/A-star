@@ -30,8 +30,11 @@ CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.h
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.cpp
 CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.h
 
+CMakeFiles/A_star.dir/main.cpp.o: ../MapSearchNode.h
 CMakeFiles/A_star.dir/main.cpp.o: ../Mappa.h
 CMakeFiles/A_star.dir/main.cpp.o: ../Personaggio.h
 CMakeFiles/A_star.dir/main.cpp.o: ../Tile.h
+CMakeFiles/A_star.dir/main.cpp.o: ../fsa.h
 CMakeFiles/A_star.dir/main.cpp.o: ../main.cpp
+CMakeFiles/A_star.dir/main.cpp.o: ../stlastar.h
 
