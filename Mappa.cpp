@@ -60,7 +60,7 @@ void Mappa::drawMap() {
 
 }
 
-Mappa* Mappa::instance = nullptr;
+Mappa* Mappa::instance = 0;
 
 int Mappa::getHeight() const {
 
@@ -88,7 +88,7 @@ int Mappa::getTileValue(int x, int y) {
 }*/
 
 Mappa::~Mappa() {
-    instance=nullptr;
+    instance = nullptr;
 
 }
 

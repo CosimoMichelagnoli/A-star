@@ -2,9 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/A_star.dir/main.cpp.o"
   "CMakeFiles/A_star.dir/Mappa.cpp.o"
   "CMakeFiles/A_star.dir/Tile.cpp.o"
-  "CMakeFiles/A_star.dir/Personaggio.cpp.o"
   "CMakeFiles/A_star.dir/MappaPietre.cpp.o"
   "CMakeFiles/A_star.dir/MappaSiepi.cpp.o"
+  "CMakeFiles/A_star.dir/Personaggio.cpp.o"
   "A_star.pdb"
   "A_star"
 )

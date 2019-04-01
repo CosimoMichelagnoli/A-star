@@ -9,18 +9,16 @@
 class Personaggio {
 public:
     ~Personaggio();
-    static Personaggio* Instance();
+
+    static Personaggio *Instance();
 
 
 protected:
-    explicit Personaggio();
+    Personaggio();
+
 private:
     static Personaggio* instance;
     int x;
     int y;
-
-
 };
-
-
 #endif //A_STAR_PERSONAGGIO_H

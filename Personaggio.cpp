@@ -4,14 +4,16 @@
 
 #include "Personaggio.h"
 
+Personaggio* Personaggio::instance = 0;
+
 Personaggio::~Personaggio() {
-    instance= nullptr;
+    instance = nullptr;
 
 }
 
 Personaggio *Personaggio::Instance() {
     if(!instance)
-        instance=new Personaggio();
+        instance= new Personaggio;
     return instance;
 }
 
