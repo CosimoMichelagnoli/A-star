@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    Mappa::Instance(0);
+    Mappa::Instance(1);
     Personaggio::Instance();
 
 }

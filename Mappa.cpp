@@ -3,8 +3,8 @@
 //
 
 #include "Mappa.h"
-#include "MappaSiepi.h"
-#include "MappaPietre.h"
+#include "MappaPiccola.h"
+#include "MappaGrande.h"
 //#include <sstream>
 #include <fstream>
 #include <iostream>
@@ -16,21 +16,20 @@ void Mappa::setMappa() {
 
     //int i=0;
     //string line;
-    vector <Tile> lineTiles;//oggetti di tipo tile
-    Tile tile;
+    //vector <Tile> lineTiles;//oggetti di tipo tile
+    //Tile tile;
+    lvlmap = new int[width * height];
     srand((unsigned int)time(NULL));
     for(int i=0;i<height;i++){
         for(int j=0;j<width;j++){
-            tile.setValue(type[rand()%type.size()]);
-            if(tile.getValue()<50)
-                tile.setWall(true);
-            tile.setWall(false);
-            lineTiles.push_back(tile);
-            cout<<tile.getValue()<<" ";
+            lvlmap[i*width+j]=type[rand()%type.size()];
+            //tile.setValue(type[rand()%type.size()]);
+            //lineTiles.push_back(tile);
+            cout<<lvlmap[i*width+j]<<" ";
         }
         cout<<endl;
-        tiles.push_back(lineTiles);//vettore di vettori
-        lineTiles.clear();
+        //tiles.push_back(lineTiles);//vettore di vettori
+        //lineTiles.clear();
     }
 
     /*while(getline(mapTextFile,line)) { per una mappa prestabilita
@@ -71,14 +70,10 @@ int Mappa::getWidth() const {
 
     return width;
 }
-bool Mappa::getTileWall(int x, int y) {
 
-    return tiles[x][y].getWall();
-}
-
-int Mappa::getTileValue(int x, int y) {
+/*int Mappa::getTileValue(int x, int y) {
     return tiles[x][y].getValue();
-}
+}*/
 
 /*Mappa::Mappa(string namefile) {
     this->namefile=namefile;
@@ -95,9 +90,9 @@ Mappa::~Mappa() {
 Mappa *Mappa::Instance(int num) {
     if(!instance)
         switch(num) {
-        case 0:   instance = new MappaSiepi;
+        case 0:   instance = new MappaPiccola;
         break;
-        case 1:   instance = new MappaPietre;
+        case 1:   instance = new MappaGrande;
         break;
         /*default:
             cout<<"errore"; mettere exeption*/
@@ -107,14 +102,18 @@ Mappa *Mappa::Instance(int num) {
 
 void Mappa::setGoal() {
     do{
-        goalx=random()%height;
-        goaly=random()%width;
+        goalx= static_cast<int>(random() % height);
+        goaly= static_cast<int>(random()%width);
     }
-    while (!tiles[goalx][goaly].getWall());
+    while (lvlmap[goalx*width+goaly]!=9);
 
 }
 
-Mappa::Mappa() {
+Mappa::Mappa() {}
 
+int Mappa::getMap( int x, int y )
+{
+    if( x < 0 || x >= width || y < 0 || y >= height) return 60;
+    return lvlmap[y * width + x];
 }
 

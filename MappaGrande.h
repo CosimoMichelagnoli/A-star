@@ -8,10 +8,10 @@
 
 #include "Mappa.h"
 
-class MappaPietre: public Mappa {
+class MappaGrande: public Mappa {
 public:
-    MappaPietre();
-    ~MappaPietre();
+    MappaGrande();
+    ~MappaGrande();
     };
 
 

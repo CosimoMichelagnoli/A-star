@@ -20,16 +20,10 @@ public:
 
     int getValue();
 
-    void setWall(bool s);
 
-    bool getWall();
-
-    int getCosto() const;
 
 private:
-    int costo;
     int value;
-    bool wall;//identifica cosa è camminabile
 };
 
 

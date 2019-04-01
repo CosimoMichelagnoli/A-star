@@ -14,21 +14,4 @@ int Tile::getValue() {
     return value;
 }
 
-void Tile::setWall(bool state) {
-
-    wall=state;
-}
-
-bool Tile::getWall() {
-
-    return wall;
-}
-
-void Tile::setCosto(int costo) {
-    this->costo=costo;
-}
-
-int Tile::getCosto() const {
-    return costo;
-}
 

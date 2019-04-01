@@ -16,14 +16,12 @@ public:
 
     void setGoal();
     void drawMap();
-    static Mappa* Instance(int nmap);
+    static Mappa* Instance(int nmap=rand()%2);
     int getTileValue(int x, int y);
-
     int getWidth() const;
-
     int getHeight() const;
     bool getTileWall(int x,int y);
-
+    int getMap(int x, int y);
 
 protected:
     Mappa();//per ereditare nelle classi mappa
@@ -32,7 +30,7 @@ protected:
     int height;
     int goalx;
     int goaly;
-    vector<vector<Tile>>tiles;
+    //vector<vector<int>>tiles;
     vector<int>type;
     void setMappa();
 
@@ -40,6 +38,8 @@ private:
     string namefile;
     static Mappa* instance;
     int* lvlmap;
+
+
 };
 
 

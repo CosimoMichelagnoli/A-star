@@ -84,22 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MapSearchNode.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MapSearchNode.h">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.cpp">
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.h">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.cpp">
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaGrande.cpp">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPietre.h">
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaGrande.h">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.cpp">
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPiccola.cpp">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaSiepi.h">
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPiccola.h">
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp">
@@ -114,7 +120,13 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.h">
 			<Option target="A_star"/>
 		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/fsa.h">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/stlastar.h">
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/CMakeLists.txt">

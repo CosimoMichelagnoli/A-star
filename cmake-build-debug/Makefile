@@ -123,6 +123,33 @@ A_star/fast:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/build
 .PHONY : A_star/fast
 
+MapSearchNode.o: MapSearchNode.cpp.o
+
+.PHONY : MapSearchNode.o
+
+# target to build an object file
+MapSearchNode.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MapSearchNode.cpp.o
+.PHONY : MapSearchNode.cpp.o
+
+MapSearchNode.i: MapSearchNode.cpp.i
+
+.PHONY : MapSearchNode.i
+
+# target to preprocess a source file
+MapSearchNode.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MapSearchNode.cpp.i
+.PHONY : MapSearchNode.cpp.i
+
+MapSearchNode.s: MapSearchNode.cpp.s
+
+.PHONY : MapSearchNode.s
+
+# target to generate assembly for a file
+MapSearchNode.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MapSearchNode.cpp.s
+.PHONY : MapSearchNode.cpp.s
+
 Mappa.o: Mappa.cpp.o
 
 .PHONY : Mappa.o
@@ -150,59 +177,59 @@ Mappa.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.s
 .PHONY : Mappa.cpp.s
 
-MappaPietre.o: MappaPietre.cpp.o
+MappaGrande.o: MappaGrande.cpp.o
 
-.PHONY : MappaPietre.o
-
-# target to build an object file
-MappaPietre.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.o
-.PHONY : MappaPietre.cpp.o
-
-MappaPietre.i: MappaPietre.cpp.i
-
-.PHONY : MappaPietre.i
-
-# target to preprocess a source file
-MappaPietre.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.i
-.PHONY : MappaPietre.cpp.i
-
-MappaPietre.s: MappaPietre.cpp.s
-
-.PHONY : MappaPietre.s
-
-# target to generate assembly for a file
-MappaPietre.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPietre.cpp.s
-.PHONY : MappaPietre.cpp.s
-
-MappaSiepi.o: MappaSiepi.cpp.o
-
-.PHONY : MappaSiepi.o
+.PHONY : MappaGrande.o
 
 # target to build an object file
-MappaSiepi.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.o
-.PHONY : MappaSiepi.cpp.o
+MappaGrande.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.o
+.PHONY : MappaGrande.cpp.o
 
-MappaSiepi.i: MappaSiepi.cpp.i
+MappaGrande.i: MappaGrande.cpp.i
 
-.PHONY : MappaSiepi.i
+.PHONY : MappaGrande.i
 
 # target to preprocess a source file
-MappaSiepi.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.i
-.PHONY : MappaSiepi.cpp.i
+MappaGrande.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.i
+.PHONY : MappaGrande.cpp.i
 
-MappaSiepi.s: MappaSiepi.cpp.s
+MappaGrande.s: MappaGrande.cpp.s
 
-.PHONY : MappaSiepi.s
+.PHONY : MappaGrande.s
 
 # target to generate assembly for a file
-MappaSiepi.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaSiepi.cpp.s
-.PHONY : MappaSiepi.cpp.s
+MappaGrande.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.s
+.PHONY : MappaGrande.cpp.s
+
+MappaPiccola.o: MappaPiccola.cpp.o
+
+.PHONY : MappaPiccola.o
+
+# target to build an object file
+MappaPiccola.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.o
+.PHONY : MappaPiccola.cpp.o
+
+MappaPiccola.i: MappaPiccola.cpp.i
+
+.PHONY : MappaPiccola.i
+
+# target to preprocess a source file
+MappaPiccola.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.i
+.PHONY : MappaPiccola.cpp.i
+
+MappaPiccola.s: MappaPiccola.cpp.s
+
+.PHONY : MappaPiccola.s
+
+# target to generate assembly for a file
+MappaPiccola.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.s
+.PHONY : MappaPiccola.cpp.s
 
 Personaggio.o: Personaggio.cpp.o
 
@@ -294,15 +321,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... A_star"
+	@echo "... MapSearchNode.o"
+	@echo "... MapSearchNode.i"
+	@echo "... MapSearchNode.s"
 	@echo "... Mappa.o"
 	@echo "... Mappa.i"
 	@echo "... Mappa.s"
-	@echo "... MappaPietre.o"
-	@echo "... MappaPietre.i"
-	@echo "... MappaPietre.s"
-	@echo "... MappaSiepi.o"
-	@echo "... MappaSiepi.i"
-	@echo "... MappaSiepi.s"
+	@echo "... MappaGrande.o"
+	@echo "... MappaGrande.i"
+	@echo "... MappaGrande.s"
+	@echo "... MappaPiccola.o"
+	@echo "... MappaPiccola.i"
+	@echo "... MappaPiccola.s"
 	@echo "... Personaggio.o"
 	@echo "... Personaggio.i"
 	@echo "... Personaggio.s"
