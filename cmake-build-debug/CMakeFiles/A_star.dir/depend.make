@@ -24,11 +24,10 @@ CMakeFiles/A_star.dir/MappaPiccola.cpp.o: ../MappaPiccola.cpp
 CMakeFiles/A_star.dir/MappaPiccola.cpp.o: ../MappaPiccola.h
 CMakeFiles/A_star.dir/MappaPiccola.cpp.o: ../Tile.h
 
+CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Mappa.h
 CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.cpp
 CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Personaggio.h
-
-CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.cpp
-CMakeFiles/A_star.dir/Tile.cpp.o: ../Tile.h
+CMakeFiles/A_star.dir/Personaggio.cpp.o: ../Tile.h
 
 CMakeFiles/A_star.dir/main.cpp.o: ../MapSearchNode.h
 CMakeFiles/A_star.dir/main.cpp.o: ../Mappa.h

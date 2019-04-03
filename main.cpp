@@ -3,6 +3,7 @@
 #include "Personaggio.h"
 #include "MapSearchNode.h"
 #include <iostream>
+#include "Personaggio.h"
 using namespace std;
 int main() {
     srand((unsigned int)time(NULL));
@@ -19,8 +20,8 @@ int main() {
 
         // Create a start state
         MapSearchNode nodeStart;
-        nodeStart.x = rand()%Mappa::Instance()->getWidth();
-        nodeStart.y = rand()%Mappa::Instance()->getHeight();
+        nodeStart.x = Personaggio::Instance()->getX();
+        nodeStart.y = Personaggio::Instance()->getX();
 
         // Define the goal state
         MapSearchNode nodeEnd;

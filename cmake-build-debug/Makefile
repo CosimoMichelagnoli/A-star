@@ -258,33 +258,6 @@ Personaggio.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.s
 .PHONY : Personaggio.cpp.s
 
-Tile.o: Tile.cpp.o
-
-.PHONY : Tile.o
-
-# target to build an object file
-Tile.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.o
-.PHONY : Tile.cpp.o
-
-Tile.i: Tile.cpp.i
-
-.PHONY : Tile.i
-
-# target to preprocess a source file
-Tile.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.i
-.PHONY : Tile.cpp.i
-
-Tile.s: Tile.cpp.s
-
-.PHONY : Tile.s
-
-# target to generate assembly for a file
-Tile.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Tile.cpp.s
-.PHONY : Tile.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -336,9 +309,6 @@ help:
 	@echo "... Personaggio.o"
 	@echo "... Personaggio.i"
 	@echo "... Personaggio.s"
-	@echo "... Tile.o"
-	@echo "... Tile.i"
-	@echo "... Tile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

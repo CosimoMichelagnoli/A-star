@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cosimo/Documenti/ProgrammiC++/A-star/MappaGrande.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/MappaGrande.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPiccola.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/MappaPiccola.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Personaggio.cpp.o"
-  "/home/cosimo/Documenti/ProgrammiC++/A-star/Tile.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Tile.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
