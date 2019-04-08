@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/cosimo/Documenti/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/Platform/Linux.cmake"
   "/home/cosimo/Documenti/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/home/cosimo/Documenti/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
+  "/usr/share/SFML/cmake/Modules/FindSFML.cmake"
   )
 
 # The corresponding makefile is:

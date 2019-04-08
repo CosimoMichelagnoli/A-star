@@ -258,6 +258,60 @@ Personaggio.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.s
 .PHONY : Personaggio.cpp.s
 
+Schermo.o: Schermo.cpp.o
+
+.PHONY : Schermo.o
+
+# target to build an object file
+Schermo.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Schermo.cpp.o
+.PHONY : Schermo.cpp.o
+
+Schermo.i: Schermo.cpp.i
+
+.PHONY : Schermo.i
+
+# target to preprocess a source file
+Schermo.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Schermo.cpp.i
+.PHONY : Schermo.cpp.i
+
+Schermo.s: Schermo.cpp.s
+
+.PHONY : Schermo.s
+
+# target to generate assembly for a file
+Schermo.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Schermo.cpp.s
+.PHONY : Schermo.cpp.s
+
+Target.o: Target.cpp.o
+
+.PHONY : Target.o
+
+# target to build an object file
+Target.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Target.cpp.o
+.PHONY : Target.cpp.o
+
+Target.i: Target.cpp.i
+
+.PHONY : Target.i
+
+# target to preprocess a source file
+Target.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Target.cpp.i
+.PHONY : Target.cpp.i
+
+Target.s: Target.cpp.s
+
+.PHONY : Target.s
+
+# target to generate assembly for a file
+Target.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Target.cpp.s
+.PHONY : Target.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -285,6 +339,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/lib/testAll.o: test/lib/testAll.cpp.o
+
+.PHONY : test/lib/testAll.o
+
+# target to build an object file
+test/lib/testAll.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.o
+.PHONY : test/lib/testAll.cpp.o
+
+test/lib/testAll.i: test/lib/testAll.cpp.i
+
+.PHONY : test/lib/testAll.i
+
+# target to preprocess a source file
+test/lib/testAll.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.i
+.PHONY : test/lib/testAll.cpp.i
+
+test/lib/testAll.s: test/lib/testAll.cpp.s
+
+.PHONY : test/lib/testAll.s
+
+# target to generate assembly for a file
+test/lib/testAll.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.s
+.PHONY : test/lib/testAll.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,9 +390,18 @@ help:
 	@echo "... Personaggio.o"
 	@echo "... Personaggio.i"
 	@echo "... Personaggio.s"
+	@echo "... Schermo.o"
+	@echo "... Schermo.i"
+	@echo "... Schermo.s"
+	@echo "... Target.o"
+	@echo "... Target.i"
+	@echo "... Target.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/lib/testAll.o"
+	@echo "... test/lib/testAll.i"
+	@echo "... test/lib/testAll.s"
 .PHONY : help
 
 

@@ -5,7 +5,7 @@
 		<Option title="A_star"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\..\usr\share\SFML\cmake\Modules\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug"/>
@@ -114,6 +114,18 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.h">
 			<Option target="A_star"/>
 		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.h">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Target.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Target.h">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/fsa.h">
 			<Option target="A_star"/>
 		</Unit>
@@ -123,8 +135,14 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/stlastar.h">
 			<Option target="A_star"/>
 		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp">
+			<Option target="A_star"/>
+		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/../../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

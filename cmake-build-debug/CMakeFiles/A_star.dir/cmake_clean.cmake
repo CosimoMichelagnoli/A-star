@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/A_star.dir/MappaPiccola.cpp.o"
   "CMakeFiles/A_star.dir/Personaggio.cpp.o"
   "CMakeFiles/A_star.dir/MapSearchNode.cpp.o"
+  "CMakeFiles/A_star.dir/test/lib/testAll.cpp.o"
+  "CMakeFiles/A_star.dir/Schermo.cpp.o"
+  "CMakeFiles/A_star.dir/Target.cpp.o"
   "A_star.pdb"
   "A_star"
 )

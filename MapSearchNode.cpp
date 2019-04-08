@@ -1,5 +1,6 @@
 #include "MapSearchNode.h"
 #include "Mappa.h"
+#include "Personaggio.h"
 
 
 bool MapSearchNode::IsSameState( MapSearchNode &rhs )
@@ -9,6 +10,9 @@ bool MapSearchNode::IsSameState( MapSearchNode &rhs )
 
 void MapSearchNode::PrintNodeInfo()
 {
+    Personaggio::Instance()->setPers(x*80,y*80);
+    //Mappa::Instance()->setLvlmap(x,y);
+
     cout << "Node position:(" << x << "," << y << ")" << std::endl;
 }
 
@@ -54,9 +58,9 @@ bool MapSearchNode::GetSuccessors( AStarSearch<MapSearchNode> *astarsearch, MapS
        && !((parent_x == x+1) && (parent_y == y))
        )
     {
-        NewNode = MapSearchNode( x+1, y);
-        astarsearch->AddSuccessor( NewNode );
-    }
+    NewNode = MapSearchNode( x+1, y);
+    astarsearch->AddSuccessor( NewNode );
+}
     
     
     if( (Mappa::Instance()->getMap( x, y+1 ) < 9)

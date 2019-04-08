@@ -4,6 +4,7 @@
 
 #include "Personaggio.h"
 #include "Mappa.h"
+#define TILE 80
 
 Personaggio* Personaggio::instance = 0;
 
@@ -19,13 +20,18 @@ Personaggio *Personaggio::Instance() {
 }
 
 Personaggio::Personaggio() {
-    x=0;
-    y=0;
+    srand((unsigned int)time(NULL));
+    texture.loadFromFile("pacman.png");
+    sprite.setTexture(texture);
+    sprite.scale(0.20,0.20);
+    x=rand()%Mappa::Instance()->getWidth();
+    y=rand()%Mappa::Instance()->getHeight();
+    sprite.setPosition(x*TILE,y*TILE);
+    index=0;
 }
 
 int Personaggio::getX() const {
-    srand((unsigned int)time(NULL));
-    return rand()%Mappa::Instance()->getWidth();
+    return (sprite.getPosition().x);
 }
 
 void Personaggio::setX(int x) {
@@ -33,10 +39,29 @@ void Personaggio::setX(int x) {
 }
 
 int Personaggio::getY() const {
-    srand((unsigned int)time(NULL));
-    return rand()%Mappa::Instance()->getHeight();
+
+    return (sprite.getPosition().y);
 }
 
-void Personaggio::setY(int y) {
-    Personaggio::y = y;
+void Personaggio::setPos() {
+    if(index!=pers.size())
+    Personaggio::sprite.setPosition(pers[index++]);
+}
+
+void Personaggio::drawPersonaggio(RenderWindow &window) {
+    window.draw(sprite);
+
+}
+
+const vector<Vector2f> &Personaggio::getPers() const {
+    return pers;
+}
+
+void Personaggio::setPers(int x,int y) {
+    Personaggio::pers.push_back(Vector2f(x,y));
+}
+
+void Personaggio::setPos(int x, int y) {
+    sprite.setPosition(x,y);
+
 }

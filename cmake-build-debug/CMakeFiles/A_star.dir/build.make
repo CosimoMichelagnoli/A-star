@@ -201,6 +201,78 @@ CMakeFiles/A_star.dir/MapSearchNode.cpp.o.provides: CMakeFiles/A_star.dir/MapSea
 CMakeFiles/A_star.dir/MapSearchNode.cpp.o.provides.build: CMakeFiles/A_star.dir/MapSearchNode.cpp.o
 
 
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.o: CMakeFiles/A_star.dir/flags.make
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.o: ../test/lib/testAll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/A_star.dir/test/lib/testAll.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/test/lib/testAll.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp
+
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A_star.dir/test/lib/testAll.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp > CMakeFiles/A_star.dir/test/lib/testAll.cpp.i
+
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A_star.dir/test/lib/testAll.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp -o CMakeFiles/A_star.dir/test/lib/testAll.cpp.s
+
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.requires:
+
+.PHONY : CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.requires
+
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.provides: CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.requires
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.provides.build
+.PHONY : CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.provides
+
+CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.provides.build: CMakeFiles/A_star.dir/test/lib/testAll.cpp.o
+
+
+CMakeFiles/A_star.dir/Schermo.cpp.o: CMakeFiles/A_star.dir/flags.make
+CMakeFiles/A_star.dir/Schermo.cpp.o: ../Schermo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/A_star.dir/Schermo.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/Schermo.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp
+
+CMakeFiles/A_star.dir/Schermo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A_star.dir/Schermo.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp > CMakeFiles/A_star.dir/Schermo.cpp.i
+
+CMakeFiles/A_star.dir/Schermo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A_star.dir/Schermo.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp -o CMakeFiles/A_star.dir/Schermo.cpp.s
+
+CMakeFiles/A_star.dir/Schermo.cpp.o.requires:
+
+.PHONY : CMakeFiles/A_star.dir/Schermo.cpp.o.requires
+
+CMakeFiles/A_star.dir/Schermo.cpp.o.provides: CMakeFiles/A_star.dir/Schermo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Schermo.cpp.o.provides.build
+.PHONY : CMakeFiles/A_star.dir/Schermo.cpp.o.provides
+
+CMakeFiles/A_star.dir/Schermo.cpp.o.provides.build: CMakeFiles/A_star.dir/Schermo.cpp.o
+
+
+CMakeFiles/A_star.dir/Target.cpp.o: CMakeFiles/A_star.dir/flags.make
+CMakeFiles/A_star.dir/Target.cpp.o: ../Target.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A_star.dir/Target.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A_star.dir/Target.cpp.o -c /home/cosimo/Documenti/ProgrammiC++/A-star/Target.cpp
+
+CMakeFiles/A_star.dir/Target.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A_star.dir/Target.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cosimo/Documenti/ProgrammiC++/A-star/Target.cpp > CMakeFiles/A_star.dir/Target.cpp.i
+
+CMakeFiles/A_star.dir/Target.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A_star.dir/Target.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cosimo/Documenti/ProgrammiC++/A-star/Target.cpp -o CMakeFiles/A_star.dir/Target.cpp.s
+
+CMakeFiles/A_star.dir/Target.cpp.o.requires:
+
+.PHONY : CMakeFiles/A_star.dir/Target.cpp.o.requires
+
+CMakeFiles/A_star.dir/Target.cpp.o.provides: CMakeFiles/A_star.dir/Target.cpp.o.requires
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Target.cpp.o.provides.build
+.PHONY : CMakeFiles/A_star.dir/Target.cpp.o.provides
+
+CMakeFiles/A_star.dir/Target.cpp.o.provides.build: CMakeFiles/A_star.dir/Target.cpp.o
+
+
 # Object files for target A_star
 A_star_OBJECTS = \
 "CMakeFiles/A_star.dir/main.cpp.o" \
@@ -208,7 +280,10 @@ A_star_OBJECTS = \
 "CMakeFiles/A_star.dir/MappaGrande.cpp.o" \
 "CMakeFiles/A_star.dir/MappaPiccola.cpp.o" \
 "CMakeFiles/A_star.dir/Personaggio.cpp.o" \
-"CMakeFiles/A_star.dir/MapSearchNode.cpp.o"
+"CMakeFiles/A_star.dir/MapSearchNode.cpp.o" \
+"CMakeFiles/A_star.dir/test/lib/testAll.cpp.o" \
+"CMakeFiles/A_star.dir/Schermo.cpp.o" \
+"CMakeFiles/A_star.dir/Target.cpp.o"
 
 # External object files for target A_star
 A_star_EXTERNAL_OBJECTS =
@@ -219,9 +294,17 @@ A_star: CMakeFiles/A_star.dir/MappaGrande.cpp.o
 A_star: CMakeFiles/A_star.dir/MappaPiccola.cpp.o
 A_star: CMakeFiles/A_star.dir/Personaggio.cpp.o
 A_star: CMakeFiles/A_star.dir/MapSearchNode.cpp.o
+A_star: CMakeFiles/A_star.dir/test/lib/testAll.cpp.o
+A_star: CMakeFiles/A_star.dir/Schermo.cpp.o
+A_star: CMakeFiles/A_star.dir/Target.cpp.o
 A_star: CMakeFiles/A_star.dir/build.make
+A_star: /usr/lib/x86_64-linux-gnu/libsfml-system.so
+A_star: /usr/lib/x86_64-linux-gnu/libsfml-window.so
+A_star: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
+A_star: /usr/lib/x86_64-linux-gnu/libsfml-network.so
+A_star: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 A_star: CMakeFiles/A_star.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable A_star"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable A_star"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A_star.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +318,9 @@ CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/MappaGrande.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/MappaPiccola.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Personaggio.cpp.o.requires
 CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/MapSearchNode.cpp.o.requires
+CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/test/lib/testAll.cpp.o.requires
+CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Schermo.cpp.o.requires
+CMakeFiles/A_star.dir/requires: CMakeFiles/A_star.dir/Target.cpp.o.requires
 
 .PHONY : CMakeFiles/A_star.dir/requires
 
