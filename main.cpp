@@ -6,7 +6,7 @@
 #include "Schermo.h"
 #include <time.h>
 using namespace std;
-int main() {
+int main(int argc, char* argv[]) {
     Schermo schermo;
     schermo.generateScreen();
     return 0;

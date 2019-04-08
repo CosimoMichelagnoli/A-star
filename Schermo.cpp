@@ -16,7 +16,7 @@ using namespace sf;
 
 Schermo::Schermo() {
 
-    Mappa::Instance()->load();
+    Mappa::Instance(1)->load();
     view.setSize(Mappa::Instance()->getWidth()*TILE,Mappa::Instance()->getHeight()*TILE);
     view.setCenter(Mappa::Instance()->getWidth()*TILE/2,Mappa::Instance()->getHeight()*TILE/2);
     int goalx,startx;
@@ -28,7 +28,7 @@ Schermo::Schermo() {
          goalx= static_cast<int>(random() % Mappa::Instance()->getHeight());
          goaly= static_cast<int>(random()%Mappa::Instance()->getWidth());
     }
-    while ((Mappa::Instance()->getLvlmap())[goalx*(Mappa::Instance()->getWidth())+goaly]!=9);
+    while (((Mappa::Instance()->getLvlmap())[goalx*(Mappa::Instance()->getWidth())+goaly]!=9)&&(Mappa::Instance()->getLvlmap())[(startx*(Mappa::Instance()->getWidth()))+starty]!=9);
     Personaggio::Instance()->setPos(startx*TILE,starty*TILE);
     Target::Instance()->setpos(goalx*TILE,goaly*TILE);
     window.create(sf::VideoMode(800,600), "A*-algoritm");

@@ -64,12 +64,10 @@ void Mappa::drawMap(RenderWindow &window) {
 Mappa* Mappa::instance = 0;
 
 int Mappa::getHeight() const {
-
     return height;
 }
 
 int Mappa::getWidth() const {
-
     return width;
 }
 

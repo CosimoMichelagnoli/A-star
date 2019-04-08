@@ -12,7 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Schermo.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/Target.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/Target.cpp.o"
   "/home/cosimo/Documenti/ProgrammiC++/A-star/main.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/main.cpp.o"
-  "/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/test/lib/testAll.cpp.o"
+  "/home/cosimo/Documenti/ProgrammiC++/A-star/test/runTest.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/test/runTest.cpp.o"
+  "/home/cosimo/Documenti/ProgrammiC++/A-star/test/testAll.cpp" "/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/CMakeFiles/A_star.dir/test/testAll.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

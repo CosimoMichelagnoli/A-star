@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="core">
+				<Option output="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="A_star">
 				<Option output="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/A_star" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug"/>
@@ -135,7 +181,10 @@
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/stlastar.h">
 			<Option target="A_star"/>
 		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/testAll.cpp">
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/runTest.cpp">
+			<Option target="A_star"/>
+		</Unit>
+		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/testAll.cpp">
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/CMakeLists.txt">

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named A_star
 
 # Build rule for target.
@@ -339,32 +352,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/lib/testAll.o: test/lib/testAll.cpp.o
+test/runTest.o: test/runTest.cpp.o
 
-.PHONY : test/lib/testAll.o
+.PHONY : test/runTest.o
 
 # target to build an object file
-test/lib/testAll.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.o
-.PHONY : test/lib/testAll.cpp.o
+test/runTest.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.o
+.PHONY : test/runTest.cpp.o
 
-test/lib/testAll.i: test/lib/testAll.cpp.i
+test/runTest.i: test/runTest.cpp.i
 
-.PHONY : test/lib/testAll.i
+.PHONY : test/runTest.i
 
 # target to preprocess a source file
-test/lib/testAll.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.i
-.PHONY : test/lib/testAll.cpp.i
+test/runTest.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.i
+.PHONY : test/runTest.cpp.i
 
-test/lib/testAll.s: test/lib/testAll.cpp.s
+test/runTest.s: test/runTest.cpp.s
 
-.PHONY : test/lib/testAll.s
+.PHONY : test/runTest.s
 
 # target to generate assembly for a file
-test/lib/testAll.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/lib/testAll.cpp.s
-.PHONY : test/lib/testAll.cpp.s
+test/runTest.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.s
+.PHONY : test/runTest.cpp.s
+
+test/testAll.o: test/testAll.cpp.o
+
+.PHONY : test/testAll.o
+
+# target to build an object file
+test/testAll.cpp.o:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.o
+.PHONY : test/testAll.cpp.o
+
+test/testAll.i: test/testAll.cpp.i
+
+.PHONY : test/testAll.i
+
+# target to preprocess a source file
+test/testAll.cpp.i:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.i
+.PHONY : test/testAll.cpp.i
+
+test/testAll.s: test/testAll.cpp.s
+
+.PHONY : test/testAll.s
+
+# target to generate assembly for a file
+test/testAll.cpp.s:
+	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.s
+.PHONY : test/testAll.cpp.s
 
 # Help Target
 help:
@@ -374,6 +414,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... core"
 	@echo "... A_star"
 	@echo "... MapSearchNode.o"
 	@echo "... MapSearchNode.i"
@@ -399,9 +440,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/lib/testAll.o"
-	@echo "... test/lib/testAll.i"
-	@echo "... test/lib/testAll.s"
+	@echo "... test/runTest.o"
+	@echo "... test/runTest.i"
+	@echo "... test/runTest.s"
+	@echo "... test/testAll.o"
+	@echo "... test/testAll.i"
+	@echo "... test/testAll.s"
 .PHONY : help
 
 

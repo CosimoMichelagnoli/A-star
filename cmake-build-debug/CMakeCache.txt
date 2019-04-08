@@ -399,13 +399,13 @@ googletest-distribution_BINARY_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-
 googletest-distribution_SOURCE_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-star/lib/googletest-master
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/lib/googletest-master/googlemock/gtest
+gtest_BINARY_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/test/lib/googletest
 
 //Dependencies for target
 gtest_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-star/lib/googletest-master/googletest
+gtest_SOURCE_DIR:STATIC=/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -573,7 +573,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -676,7 +676,7 @@ SFML_WINDOW_LIBRARY_STATIC_DEBUG-ADVANCED:INTERNAL=1
 SFML_WINDOW_LIBRARY_STATIC_RELEASE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-generated_dir:INTERNAL=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/lib/googletest-master/googlemock/gtest/generated
+generated_dir:INTERNAL=/home/cosimo/Documenti/ProgrammiC++/A-star/cmake-build-debug/test/lib/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
