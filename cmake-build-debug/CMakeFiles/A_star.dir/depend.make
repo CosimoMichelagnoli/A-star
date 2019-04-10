@@ -52,9 +52,3 @@ CMakeFiles/A_star.dir/main.cpp.o: ../fsa.h
 CMakeFiles/A_star.dir/main.cpp.o: ../main.cpp
 CMakeFiles/A_star.dir/main.cpp.o: ../stlastar.h
 
-CMakeFiles/A_star.dir/test/runTest.cpp.o: ../test/runTest.cpp
-
-CMakeFiles/A_star.dir/test/testAll.cpp.o: ../Mappa.h
-CMakeFiles/A_star.dir/test/testAll.cpp.o: ../Tile.h
-CMakeFiles/A_star.dir/test/testAll.cpp.o: ../test/testAll.cpp
-

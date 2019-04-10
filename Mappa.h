@@ -18,7 +18,7 @@ public:
 
 
     void drawMap(RenderWindow &window);
-    static Mappa* Instance(int nmap=rand()%2);
+    static Mappa* Instance(int nmap=(random()%2));
     //int getTileValue(int x, int y);
     int getWidth() const;
     int getHeight() const;

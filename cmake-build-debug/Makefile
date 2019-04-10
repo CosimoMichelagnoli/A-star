@@ -169,6 +169,7 @@ Mappa.o: Mappa.cpp.o
 
 # target to build an object file
 Mappa.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mappa.cpp.o
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.o
 .PHONY : Mappa.cpp.o
 
@@ -178,6 +179,7 @@ Mappa.i: Mappa.cpp.i
 
 # target to preprocess a source file
 Mappa.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mappa.cpp.i
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.i
 .PHONY : Mappa.cpp.i
 
@@ -187,6 +189,7 @@ Mappa.s: Mappa.cpp.s
 
 # target to generate assembly for a file
 Mappa.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mappa.cpp.s
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Mappa.cpp.s
 .PHONY : Mappa.cpp.s
 
@@ -196,6 +199,7 @@ MappaGrande.o: MappaGrande.cpp.o
 
 # target to build an object file
 MappaGrande.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaGrande.cpp.o
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.o
 .PHONY : MappaGrande.cpp.o
 
@@ -205,6 +209,7 @@ MappaGrande.i: MappaGrande.cpp.i
 
 # target to preprocess a source file
 MappaGrande.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaGrande.cpp.i
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.i
 .PHONY : MappaGrande.cpp.i
 
@@ -214,6 +219,7 @@ MappaGrande.s: MappaGrande.cpp.s
 
 # target to generate assembly for a file
 MappaGrande.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaGrande.cpp.s
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaGrande.cpp.s
 .PHONY : MappaGrande.cpp.s
 
@@ -223,6 +229,7 @@ MappaPiccola.o: MappaPiccola.cpp.o
 
 # target to build an object file
 MappaPiccola.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaPiccola.cpp.o
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.o
 .PHONY : MappaPiccola.cpp.o
 
@@ -232,6 +239,7 @@ MappaPiccola.i: MappaPiccola.cpp.i
 
 # target to preprocess a source file
 MappaPiccola.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaPiccola.cpp.i
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.i
 .PHONY : MappaPiccola.cpp.i
 
@@ -241,6 +249,7 @@ MappaPiccola.s: MappaPiccola.cpp.s
 
 # target to generate assembly for a file
 MappaPiccola.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MappaPiccola.cpp.s
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/MappaPiccola.cpp.s
 .PHONY : MappaPiccola.cpp.s
 
@@ -250,6 +259,7 @@ Personaggio.o: Personaggio.cpp.o
 
 # target to build an object file
 Personaggio.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Personaggio.cpp.o
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.o
 .PHONY : Personaggio.cpp.o
 
@@ -259,6 +269,7 @@ Personaggio.i: Personaggio.cpp.i
 
 # target to preprocess a source file
 Personaggio.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Personaggio.cpp.i
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.i
 .PHONY : Personaggio.cpp.i
 
@@ -268,6 +279,7 @@ Personaggio.s: Personaggio.cpp.s
 
 # target to generate assembly for a file
 Personaggio.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Personaggio.cpp.s
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/Personaggio.cpp.s
 .PHONY : Personaggio.cpp.s
 
@@ -352,60 +364,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/runTest.o: test/runTest.cpp.o
-
-.PHONY : test/runTest.o
-
-# target to build an object file
-test/runTest.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.o
-.PHONY : test/runTest.cpp.o
-
-test/runTest.i: test/runTest.cpp.i
-
-.PHONY : test/runTest.i
-
-# target to preprocess a source file
-test/runTest.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.i
-.PHONY : test/runTest.cpp.i
-
-test/runTest.s: test/runTest.cpp.s
-
-.PHONY : test/runTest.s
-
-# target to generate assembly for a file
-test/runTest.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/runTest.cpp.s
-.PHONY : test/runTest.cpp.s
-
-test/testAll.o: test/testAll.cpp.o
-
-.PHONY : test/testAll.o
-
-# target to build an object file
-test/testAll.cpp.o:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.o
-.PHONY : test/testAll.cpp.o
-
-test/testAll.i: test/testAll.cpp.i
-
-.PHONY : test/testAll.i
-
-# target to preprocess a source file
-test/testAll.cpp.i:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.i
-.PHONY : test/testAll.cpp.i
-
-test/testAll.s: test/testAll.cpp.s
-
-.PHONY : test/testAll.s
-
-# target to generate assembly for a file
-test/testAll.cpp.s:
-	$(MAKE) -f CMakeFiles/A_star.dir/build.make CMakeFiles/A_star.dir/test/testAll.cpp.s
-.PHONY : test/testAll.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -440,12 +398,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/runTest.o"
-	@echo "... test/runTest.i"
-	@echo "... test/runTest.s"
-	@echo "... test/testAll.o"
-	@echo "... test/testAll.i"
-	@echo "... test/testAll.s"
 .PHONY : help
 
 

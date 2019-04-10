@@ -5,8 +5,8 @@
 #include "Personaggio.h"
 #include "Schermo.h"
 #include <time.h>
-using namespace std;
-int main(int argc, char* argv[]) {
+//using namespace std;
+int main() {
     Schermo schermo;
     schermo.generateScreen();
     return 0;

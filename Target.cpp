@@ -35,7 +35,7 @@ void Target::drawPersonaggio(RenderWindow &window) {
 }
 
 Target::Target() {
-    texture.loadFromFile("index.png");
+    texture.loadFromFile("../immagini/index.png");
     sprite.setTexture(texture);
     sprite.scale(0.35,0.35);
 

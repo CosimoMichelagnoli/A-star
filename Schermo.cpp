@@ -15,8 +15,7 @@ using namespace std;
 using namespace sf;
 
 Schermo::Schermo() {
-
-    Mappa::Instance(1)->load();
+    Mappa::Instance()->load();
     view.setSize(Mappa::Instance()->getWidth()*TILE,Mappa::Instance()->getHeight()*TILE);
     view.setCenter(Mappa::Instance()->getWidth()*TILE/2,Mappa::Instance()->getHeight()*TILE/2);
     int goalx,startx;

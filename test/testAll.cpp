@@ -18,9 +18,3 @@ TEST(MappaTest, Map2DimentionTest) {
     delete map1;
 }
 
-/*TEST(MapTest, MapGenericTest) {
-    Map* map3 = Map::Istance(250);
-    ASSERT_EQ(map3->getHeight(),15) << "Map 3 reading problem: height not calculated correctly.";
-    ASSERT_EQ(map3->getWidth(),20) << "Map 3 reading problem: width not calculated correctly.";
-    delete map3;
-}*/

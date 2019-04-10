@@ -137,7 +137,7 @@ bool Mappa::load() {
 
     // load the map tileset texture
 
-    if (!texture.loadFromFile("Spritesheet.PNG"))
+    if (!texture.loadFromFile("../immagini/Spritesheet.PNG"))
         return false;
 
     // resize the vertex array to fit the tile size

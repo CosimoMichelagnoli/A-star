@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest/include -I/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest -I/home/cosimo/Documenti/ProgrammiC++/A-star/../include 
 

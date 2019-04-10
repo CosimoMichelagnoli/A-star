@@ -21,7 +21,7 @@ Personaggio *Personaggio::Instance() {
 
 Personaggio::Personaggio() {
     srand((unsigned int)time(NULL));
-    texture.loadFromFile("pacman.png");
+    texture.loadFromFile("../immagini/pacman.png");
     sprite.setTexture(texture);
     sprite.scale(0.20,0.20);
     x=rand()%Mappa::Instance()->getWidth();

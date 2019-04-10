@@ -44,6 +44,9 @@
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest/include"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/../include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
@@ -67,6 +70,9 @@
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest/include"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/../include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
@@ -90,6 +96,9 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest/include"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/../include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
@@ -113,6 +122,9 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest/include"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/test/lib/googletest"/>
+					<Add directory="/home/cosimo/Documenti/ProgrammiC++/A-star/../include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
@@ -137,27 +149,35 @@
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.cpp">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Mappa.h">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaGrande.cpp">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaGrande.h">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPiccola.cpp">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/MappaPiccola.h">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.cpp">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Personaggio.h">
+			<Option target="core"/>
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/Schermo.cpp">
@@ -179,12 +199,6 @@
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/stlastar.h">
-			<Option target="A_star"/>
-		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/runTest.cpp">
-			<Option target="A_star"/>
-		</Unit>
-		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/test/testAll.cpp">
 			<Option target="A_star"/>
 		</Unit>
 		<Unit filename="/home/cosimo/Documenti/ProgrammiC++/A-star/CMakeLists.txt">
